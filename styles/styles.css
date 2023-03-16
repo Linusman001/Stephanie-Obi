@@ -1,0 +1,487 @@
+body{
+    background-color: #29033f;
+}
+
+.bg-light {
+    background-color: inherit !important;
+}
+
+.navbar {
+    padding: 3% 11%;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    border-color: #fff !important;
+}
+
+.nav-link {
+    display: block !important;
+    line-height: 1.1em !important;
+    padding: 1.2em 1.1em !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-family: "Lato", sans-serif !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+.logo {
+    height: 31.656px;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 3% 2%;
+        text-align: center;
+    }
+    .btn {
+        padding: 7% 10%;
+    }
+    .size {
+        width: 100% !important;
+    }
+}
+
+@media  (min-width: 993px) {
+    .navbar {
+        padding: 3% 2%;
+    }
+    .title-hr {
+        width: 600px;
+    }
+    .titleParagraph {
+        width: 600px;
+    }
+    .btn {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .navbar {
+        padding: 3% 15%;
+    }
+}
+
+/*      Title       */
+
+.title-div {
+    background-color: inherit;
+    background-image: url(https://www.stephanieobi.com/wp-content/uploads/2020/06/Untitled-design-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    height: 940px;
+    width: 100%;
+}
+
+.titleGrid {
+    padding: 0 15%;
+    text-align: left;
+}
+
+.titleHeading {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 140px;
+    margin-bottom: 25px;
+}
+
+.titleParagraph {
+    color: #fff;
+    font-size: 36px;
+    font-family: "Lato", sans-serif !important;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+
+.title-btn:hover {
+    color: #fff;
+    background-color: #ff7937;
+}
+
+.title-btn {
+    color: #fff;
+    background-color: #ff5500;
+    padding: 5% 2%;
+    line-height: 1.17;
+    font-size: 32px;
+    font-family: "Lato", sans-serif !important;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.size {
+    width: 700px !important;
+}
+
+/*               Images              */
+
+.media {
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.media-images {
+    padding: 0 15%;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+/*                You                 */
+
+#You {
+    text-align: center;
+    background-color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    color: #29033f;
+}
+.you-div {
+    padding: 40px 15% 0;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.you-h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.you-p {
+    margin-bottom: 30px;
+}
+
+.you-p3 {
+    margin-bottom: 50px !important;
+}
+
+.button-div {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.you-button {
+    width: 440px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif !important;
+    padding: 30px 0;
+    color: #fff;
+    background-color: #29033f;
+}
+
+.you-button-span {
+    color: #fff;
+}
+
+.you-button:hover {
+    background-color: #3c045d;
+}
+
+.you-button-span:hover {
+    background: grey;
+    color: #fff;
+    background-color: unset;
+}
+
+@media (max-width: 648px) {
+    .you-button {
+        width: 100%;
+    }
+}
+
+/*                Stephanie               */
+
+.stephanie {
+    width: 100%;
+}
+
+.stephanie-container {
+    padding: 0 15%;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.stephanie-h1 {
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.stephanie-h2 {
+    font-size: 35px;
+    font-family: "Lato", sans-serif !important;
+    font-weight: bold;
+}
+
+.steph2 {
+    color: #29033f;
+    font-size: 20px;
+}
+
+.steph-row {
+    padding-top: 15%;
+    padding-bottom: 7%;
+}
+
+@media (max-width: 993px) {
+    .stephanie-container {
+        padding: 0 2%;
+    }
+}
+
+@media (max-width: 960px) {
+    .stephanie-container {
+        padding: 0 10%;
+    }
+    .stephanie-h2 {
+        
+    }
+    .stephanie {
+    }
+}
+
+@media (max-width: 767px) {
+    .stephanie-container {
+        padding: 0 23%;
+    }
+    .steph-row {
+        padding-top: 30%;
+    }
+    .stephanie{
+    }
+    .steph{
+        margin: 15% !important;
+    }
+    .steph2 {
+        padding-top: 30%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .stephanie-container {
+        padding: 0 15%;
+    }
+    .stephanie {
+    }
+
+}
+
+@media (max-width: 479px) {
+    .stephanie {
+    }
+}
+
+@media (max-width: 360px) {
+    .stephanie {
+        height: 100%;
+    }
+    .stephanie-container {
+        padding: 0 10px;
+    }
+}
+
+.success {
+    text-align: center;
+    color: #fff;
+}
+
+.view {
+    margin: 70px auto;
+    font-size: 46px;
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700;
+}
+
+.success-story-row {
+    padding: 0 15%;
+    background-color: #fff;
+}
+
+@media (max-width: 993px) {
+    .success-story-row {
+        padding: 0 7%;
+    }
+}
+
+.tobi, .glory, .ibironke, .ndidi, .amara, .addie {
+    width: 100%;
+}
+
+.s-images-top {
+    margin-top: 40px;
+}
+
+.success-div {
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.s-button {
+    background-color: #29033f !important;
+    font-size: 30px;
+    font-family: "Lato", sans-serif !important;
+    font-weight: bold;
+    color: #fff;
+    margin: 80px auto 60px;
+    padding: 30px 15px;
+}
+
+.s-button-span {
+    margin: 30px auto;
+}
+
+.s-button:hover {
+    color: #fff;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+/*             Download              */
+
+#Download {
+    background-color: #29033f;
+}
+
+.download-container {
+    padding: 0 15%;
+}
+
+.download-div-1 {
+    margin-top: 15px;
+}
+
+.download-div-2 {
+    color: #fff;
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 767px) {
+    .download-div-2 {
+        margin-top: 60px;
+    }
+}
+
+.download-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.download-h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 46px;
+    margin-top: 70px;
+}
+
+.download-h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.download-ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.download-li {
+    background-image: url(https://www.stephanieobi.com/wp-content/themes/optimizePressTheme/lib/assets/images/bullet_block/32x32/2.png);
+    background-repeat: no-repeat;
+    padding-left: 44px;
+    font-size: 21px;
+    font-family: "Lato", sans-serif !important;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.download-btn-div {
+    padding: 0 10%;
+}
+
+.download-btn {
+    background-color: #ff5500;
+    width: 100%;
+    text-align: center !important;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.download-btn:hover {
+    background-color: #ff7937;
+    color: #fff;
+}
+
+.download-row {
+    margin: 60px 0 40px;
+}
+
+@media (max-width: 1120px) {
+    .download-container {
+        padding: 0 7%;
+    }
+}
+
+@media (max-width: 960px) {
+    .download-container {
+        padding: 0 7%;
+    }
+}
+
+@media (max-width: 900px) {
+    .download-container {
+        padding: 0 3%;
+    }
+}
+
+/*          Footer          */
+
+#Footer {
+    margin-bottom: 0;
+}
+
+.footer-div {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+.copyright {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.footer-links {
+    font-size: 13px;
+    color: #de0175;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: none;
+    color: #666;
+}
