@@ -231,6 +231,10 @@ body{
     font-size: 20px;
 }
 
+.row {
+    margin-right: 0;
+}
+
 .steph-row {
     padding-top: 15%;
     padding-bottom: 7%;
@@ -484,4 +488,5 @@ body{
 .footer-links:hover {
     text-decoration: none;
     color: #666;
+
 }
