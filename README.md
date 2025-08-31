@@ -1,2 +1,2 @@
 # Stephanie-Obi
-A clone of  https://www.stephanieobi.com landing page
+A clone of (a previously existing Domain)https://www.stephanieobi.com landing page
